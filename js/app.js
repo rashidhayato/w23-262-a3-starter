@@ -27,7 +27,7 @@ const handleSubmit = function(event) {
 
   // Using if, else if and else blocks: assign a meal recommendation to `answer` based on the submitted options for `day` and `meal`.
 
-  
+
 
   // ***********monday *************//
   
@@ -41,6 +41,9 @@ const handleSubmit = function(event) {
 
   else if (day === 'mon' && meal=== 'dinner') {
     answer = 'pasta';
+  
+  } else {
+    answer = 'no food'
   }
 
 
@@ -56,7 +59,10 @@ const handleSubmit = function(event) {
 
   else if (day === 'tue' && meal=== 'dinner') {
     answer = 'veggie soup';
+  }   else {
+    answer = 'no food'
   }
+  
 
   ////*********Wednesday*******////
 
